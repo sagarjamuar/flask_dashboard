@@ -1,0 +1,82 @@
+/* General Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+}
+
+/* Dashboard Container */
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.select-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 24px;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Charts */
+.chart-container {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #343a40;
+  color: white;
+  margin-top: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
